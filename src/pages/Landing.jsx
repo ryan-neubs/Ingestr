@@ -28,7 +28,6 @@ export default function LandingPage() {
                     <button className="learn-btn">Learn More!</button>
                 </div>
             
-
                 <aside className="auth-col">
                     <div className="auth-card">
                         <img src={Logo} alt="Ingestr" className="logo" />
@@ -38,7 +37,7 @@ export default function LandingPage() {
                         <img src={orDivider} />
                         <div className="email-input">
                             <TextField
-                                id="outlined-required"
+                                className="email-input"
                                 label="Email"
                                 defaultValue="Sign Up with Email"
                             />
