@@ -40,13 +40,6 @@ export default function LandingPage() {
                                 className="email-input"
                                 label="Email"
                                 defaultValue="Sign Up with Email"
-                                sx={
-                                    { 
-                                        'width': 205, 
-                                        'height': 35,
-                                        'font-size': 14
-                                    }
-                                }
                             />
                             <button className="go-btn">Go!</button>
                         </div>
