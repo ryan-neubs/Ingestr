@@ -35,11 +35,18 @@ export default function LandingPage() {
                         <button className="auth-btn"><img src={AppleLogo} />Sign up with Apple</button>
                         <button className="auth-btn"><img src={StravaLogo} />Sign up with Strava</button>
                         <img src={orDivider} />
-                        <div className="email-input">
+                        <div className="email-submittal">
                             <TextField
                                 className="email-input"
                                 label="Email"
                                 defaultValue="Sign Up with Email"
+                                sx={
+                                    { 
+                                        'width': 205, 
+                                        'height': 35,
+                                        'font-size': 14
+                                    }
+                                }
                             />
                             <button className="go-btn">Go!</button>
                         </div>

@@ -138,11 +138,31 @@ html, body, #root {
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.08), 0 1px 1px 0 rgba(0, 0, 0, 0.17);
 }
 
-.email-input {
+.auth-btn:active {
+    box-shadow: none;
+    transform: translateY(1px);
+}
+
+.email-submittal {
+    color: #757575;
     display: flex;
-    width: 207px;
-    height: 41px;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    gap: 2px;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.go-btn {
+    width: 41px;
+    height: 41px;
+    background-color: #FC4C01;
+    border-radius: 2px;
+    border: 1px solid #B3B3B3;
+    color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.17), 0 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.go-btn:active {
+    box-shadow: none;
+    transform: translateY(1px);
 }
